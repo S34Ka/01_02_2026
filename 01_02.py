@@ -27,7 +27,7 @@ def _1(u0: float, u: float, t: float) -> float:
         print(f"{a=}")
         return a
 
-def _2():
+def _2() -> None:
     winner = {
         "8": [0, []],
         "9": [0, []],
@@ -70,7 +70,7 @@ def _2():
     print(f"{max_algebra=}")
     print(f"{max_geometry=}")
 
-def main():
+def main() -> None:
     _1(1, 10, 1)
     _2()
 
